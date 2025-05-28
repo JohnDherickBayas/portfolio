@@ -49,7 +49,7 @@ const projects = [
     description: "A stylish and fully responsive portfolio website showcasing Dherick’s frontend skills, complete with animations, interactive UI, and a clean automotive-inspired theme."
   },
   {
-    title: "Bike Garage Manager",
+    title: "truck logistic",
     image: "truck.png",
     description: "An intuitive dashboard tool for Malinta Corrugated Boxes Manufacturing Corporation with Automated inventory monitoring, Centralized digital system, and improve route planning and dispatch coordination feature."
   }
