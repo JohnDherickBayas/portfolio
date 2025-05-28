@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dherick | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="bgCanvas"></canvas>
+  <nav class="navbar">
+    <div class="logo">Dherick 🚗</div>
+    <ul>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#projects">Projects</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <h2>Hello, I'm Dherick 🚗</h2>
+    <p>A passionate front-end developer who loves cars and clean code. This is my personal space where tech meets speed.</p>
+  </section>
+
+  <main>
+    <section class="about" id="about">
+      <div class="about-content">
+        <img src="dherick.jpg" alt="Dherick">
+        <p>
+          I'm Dherick, a curious learner and web enthusiast who enjoys creating sleek, functional websites. Outside of coding, I spend my time around engines, wheels, and everything automotive. My approach to projects is just like tuning a car—optimize it to run smooth, fast, and reliable.
+        </p>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <h2>Projects</h2>
+      <div class="project-carousel">
+        <div class="arrow" onclick="prevProject()">&lt;</div>
+        <div id="projectDisplay" class="project-display"></div>
+        <div class="arrow" onclick="nextProject()">&gt;</div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <h2>Contact</h2>
+    <p>Email: dherick11uone@gmail.com</p>
+    <p>© 2025 Dherick</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
